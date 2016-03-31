@@ -1,0 +1,30 @@
+/* Brand name styling */
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+text-decoration: none;
+color: yellow;
+}
+/* Toggle button styling */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: maroon;
+}
+
+/* Navigation bar styling */
+.navbar{
+background-color:maroon;
+}
+
+.rest-menu-item {
+background: gray;
+}
+
+#navbar-collapse-1 > ul > li > a, #navbar-collapse-1 > ul > li:focus, #navbar-collapse-1 > ul > li:hover {
+text-decoration: none;
+color: yellow;
+}
+
+@media(max-width:767px){
+/* dropdown menu styling in mobile mode */
+#navbar-collapse-1 {
+background-color: green;
+}
+}
